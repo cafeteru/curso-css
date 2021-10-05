@@ -1,0 +1,9 @@
+body {
+    background: rgb(163, 162, 162);
+}
+
+h1 {
+    color: brown;
+    font-size: 50px;
+    text-decoration: underline;
+}
