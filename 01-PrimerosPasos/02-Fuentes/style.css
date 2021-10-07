@@ -1,0 +1,40 @@
+/* Importamos una fuente descargada */
+@font-face {
+    font-family: EphesisCustom;
+    src: url(fonts/Ephesis/Ephesis-Regular.ttf);
+}
+
+h1 {
+    /* Selecciona la fuente */
+    font-family: "Akronim", Arial, Helvetica, sans-serif;
+    /* Cursiva */
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 45px;
+
+    /********** Colores **********/
+
+    /* Colores del sistema*/
+    color: purple;
+
+    /* Colores hexadecimales*/
+    color: #ccc;
+}
+
+h3 {
+    font-family: EphesisCustom 'Courier New', Courier, monospace;
+    font-size: 25px;
+
+    /* Colores RGB */
+    color: rgb(45, 145, 45);
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    /* Grosor de la letra (negrita) */
+    font-weight: bold;
+
+    /* Colores RGBA (RGB con transparencia) */
+    color: rgba(45, 145, 45, 0.2)
+}
